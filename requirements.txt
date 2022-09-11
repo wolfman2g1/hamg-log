@@ -1,5 +1,4 @@
-
 asgiref==3.5.2
-django==4.1.1
+Django==4.1.1
+-e git+ssh://git@github.com/wolfman2g1/hamg-log.git@9fc908e113779968bb7696e6622a8d3e9e72dd43#egg=hamg_log
 sqlparse==0.4.2
-tzdata==2022.2
