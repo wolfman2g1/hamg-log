@@ -1,3 +1,4 @@
+![Tests](https://github.com/wolfman2g1/hamg-log/actions/workflows/django.yml/badge.svg)  ![CodeQL](https://github.com/wolfman2g1/hamg-log/actions/workflows/codeql-analysis.yml/badge.svg)
 # hamg-log
 basic django app to log ham radio contacts
 
