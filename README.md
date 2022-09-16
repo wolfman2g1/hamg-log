@@ -7,6 +7,7 @@ clone repo and install requirements
 
 ```bash
 git clone git@github.com:wolfman2g1/hamg-log.git
+cd hamg_log
 pip install poetry
 poetry shell
 poetry install
