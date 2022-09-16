@@ -46,3 +46,7 @@ class Log(models.Model):
     mode = models.CharField(max_length=10,choices=MODE_CHOICES,default=AM)
     freq = models.FloatField
     power = models.IntegerField(max_length=4)
+    created_at = models.DateTimeField(default=timezone.now())
+
+    def __str__(self) -> str:
+        return self.callsign
