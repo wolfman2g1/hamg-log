@@ -12,6 +12,11 @@ pip install poetry
 poetry shell
 poetry install
 ```
+# run database migrations
+you should do this everytime you do a `git pull` this will keep your data model current in the event that I make db changes
+```bash
+./manage.py migrate
+```
 
 ## to run
 ```bash
@@ -24,8 +29,9 @@ or depending on set up
 ```
 
 ## testing. 
-all views and models most have a test
+all views and models must have a test
 test files must begin with test. test functions but begin with test
 ```bash
 python manage.py test
 ```
+I'm writing the tests now. basically when you write your views  you can run the test to make sure it does what you expect

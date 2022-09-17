@@ -19,7 +19,7 @@ from django.utils import timezone
  """
 
 
-class Log(models.Model):
+class Contact(models.Model):
     DMR = 'DMR'
     CW = 'CW'
     AM = 'AM'
